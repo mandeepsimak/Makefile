@@ -1,0 +1,35 @@
+# ====================================================================
+# 
+#        Filename:  Make.common
+# 
+#     Description:  Definition of common variables used in Makefile
+# 
+#         Created:  Saturday 23 March 2013 11:15:42  IST
+#        Compiler:  g++
+# 
+#          Author:  Mandeep Kaur, meghasimak@gmail.com
+#         License:  GNU General Public License
+#       Copyright:  Copyright (c) 2013, Great Developers
+#                   https://github.com/GreatDevelopers 
+# 
+# ====================================================================
+
+# ====================================================================
+#   Variables for compilation of c/c++ files
+# ====================================================================
+
+CXX     =   g++                            # Compiler
+WALL    =   -Wall                          # Warning all flag
+WERROR  =   -Werror                        # Convert warnings into error
+DEBUG   =   -g                             # Debugging flag
+FLAG    =   $(-Wall) $(WERROR) $(DEBUG)    # Extra Flags
+CFLAG   =   -c                             # Compilation flag
+OFLAG   =   $(FLAG) -o                     # O/p Flag
+
+# ====================================================================
+#   Variable for filenames
+# ====================================================================
+
+HEADER       =   header.h      # Header file name
+MAIN         =   main.cpp      # Filename having main method
+OUTPUT       =   main          # Executabl file name
