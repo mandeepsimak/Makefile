@@ -14,21 +14,13 @@
 # 
 # ====================================================================
 
-# ====================================================================
 #   Variables for compilation of c/c++ files
-# ====================================================================
 
 CXX     =   g++                            # Compiler
-WALL    =   -Wall                          # Warning all flag
-WERROR  =   -Werror                        # Convert warnings into error
-DEBUG   =   -g                             # Debugging flag
-FLAG    =   $(-Wall) $(WERROR) $(DEBUG)    # Extra Flags
 CFLAG   =   -c                             # Compilation flag
-OFLAG   =   $(FLAG) -o                     # O/p Flag
+OFLAG   =   -o                             # O/p Flag
 
-# ====================================================================
 #   Variable for filenames
-# ====================================================================
 
 HEADER       =   header.h      # Header file name
 MAIN         =   main.cpp      # Filename having main method
