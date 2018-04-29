@@ -1,11 +1,11 @@
 Makefile
 ========
 
-Simple example of Makefile for compiling and execuring C/C++ programs
+A simple example of Makefile for compiling and executing C/C++ programs
 
 Description:
 
-* Make.commom: This file contains common variables. Change main file
+* Make.common: This file contains common variables. Change main file
   name if its not same.
 
 * Makefile: Makefile for executing program.
@@ -14,4 +14,4 @@ Description:
 
 * main.cpp: Main file.
 
-* Run $ make in terminal for compiling and executing your program.
+* Run $ `make` in terminal for compiling and executing your program.
